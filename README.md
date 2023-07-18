@@ -27,7 +27,7 @@ Once you have Node.js and npm installed, follow these steps to install the appli
 2. Open a terminal window and navigate to the project directory:
 
    ```
-   cd random-words-generator
+   cd client
    ```
 
 3. Install the project dependencies using npm:
@@ -48,10 +48,28 @@ This will start the development server and open the web application in your defa
 
 ## Client-side code
 
-The client-side code for this application is written in React and is located in the `src` directory. which fetches the random words from the server and displays them in a quiz style.
+The client-side code for this application is written in React and is located in the `src` directory, which fetches random words from the server and displays them as a quiz.
 
 ## API
+2. Open a terminal window and navigate to the project directory:
 
+   ```
+   cd server
+   ```
+
+3. Install the project dependencies using npm:
+
+   ```
+   npm install
+   ```
+
+## Usage
+
+Once you have installed the application, you can run it using the following command:
+
+```
+npm run dev
+```
 The application exposes a simple RESTful API that returns a list of 10 random words in JSON format. You can make a GET request to the `http://localhost:5000/api/words` endpoint to fetch the random words.
 
 Here's an example request using the `curl` command-line tool:
