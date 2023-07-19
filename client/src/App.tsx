@@ -136,7 +136,7 @@ const App: React.FC = () => {
             className="btn-primary"
             onClick={() => window.location.reload()}
           >
-            restart
+            Try Again
           </button>
         </>
       )}
