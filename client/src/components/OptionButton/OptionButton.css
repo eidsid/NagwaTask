@@ -1,0 +1,32 @@
+.option-button {
+  display: block;
+  min-width: 100px;
+  max-width: 200px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.option-button:hover {
+  background-color: #8b8888;
+}
+.option-button:active {
+  background-color: #d0d0d0;
+}
+
+.option-button.success {
+  background: #2ecc71;
+  color: #ffffff;
+}
+.option-button.danger {
+  background: #e74c3c;
+  color: #ffffff;
+}
+
+.option-button:disabled {
+  cursor: not-allowed;
+}

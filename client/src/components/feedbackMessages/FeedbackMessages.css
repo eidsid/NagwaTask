@@ -1,0 +1,16 @@
+.feedback-message {
+  font-size: 1.2rem;
+  font-style: italic;
+  visibility: hidden;
+}
+
+.feedback-message.correct {
+  color: green;
+}
+
+.feedback-message.incorrect {
+  color: red;
+}
+.feedback-message.isActive {
+  visibility: visible;
+}
